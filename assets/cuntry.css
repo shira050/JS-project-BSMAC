@@ -1,0 +1,19 @@
+
+.bg-main {
+   min-height: 100vh;
+    background-image: url("./images/atlas_reka2.jpg");
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+
+}
+.card,a{
+    cursor: pointer !important;
+}
+*{
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
