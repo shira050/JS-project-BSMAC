@@ -59,7 +59,7 @@ export const loadCountry = (_name) => {
             <strong>Warning!</strong>         
             <h2>The Country ${_name} is not found</h2>
             <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <a href="./country.html" class="btn col-5 border  my-2 mx-auto">BACK TO HOME</a>
+            <a href="./index.html" class="btn col-5 border  my-2 mx-auto">BACK TO HOME</a>
 
             </div>
             
@@ -91,7 +91,7 @@ export const newCountryByCode = (_code) => {
         <strong>Warning!</strong>         
         <h2>The Country ${_code} is not found</h2>
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-        <a href="./country.html" class="btn col-5 border  my-2 mx-auto">BACK TO HOME</a>
+        <a href="./index.html" class="btn col-5 border  my-2 mx-auto">BACK TO HOME</a>
 
         </div>
         

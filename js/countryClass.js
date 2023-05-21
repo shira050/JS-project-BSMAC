@@ -65,7 +65,7 @@ export default class CountryModule {
     <div class="col-md-5">
         <img src=${this.flag} alt=${this.name} style="width: 100%;heigh:100%">
     </div>
-    <a href="./country.html" class="btn col-5  bg-info my-2 mx-auto">BACK TO HOME</a>
+    <a href="./index.html" class="btn col-5  bg-info my-2 mx-auto">BACK TO HOME</a>
     <div class="map">
         <iframe class="mt-4 col-12" height="400"
             src="https://maps.google.com/maps?q=${this.map[0]},${this.map[1]}&z=7&ie=UTF8&iwloc=&output=embed"

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./assets/cuntry.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./js/app.js" defer type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>My-Atlas-shira</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io (3)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io (3)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io (3)/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon_io (3)/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="container-fluid bg-light sticky-top">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#" id="id_home">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" id="id_Israel">ISRAEL </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="id_USA">USA</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="id_France">FRANCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="id_UK">UK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="id_thailand">THAIlAND</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                        id="id_search_value">
+                    <button class="btn btn-outline-success my-2" type="submit" id="id_search_button">Search</button>
+                    <select class="form-select form-select-sm mt-1" aria-label=".form-select-sm example" id="id_select">
+                    </select>
+                </form>
+            </div>
+        </nav>
+    </div>
+    </header>
+    <main class="bg-main">
+        <div class="container">
+            <div id="id_load" class="loading text-center">
+                <img src="./assets/images/loading_gif.gif" width="50%" alt="loading">
+            </div>
+
+            <div id="id_parent"></div>
+        </div>
+    </main>
+    <footer class="bg-light text-center text-lg-start" >
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 made by :
+            <a class="text-dark" href="https://mdbootstrap.com/">shira chadad</a>
+        </div>
+
+
+
+    </footer>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
